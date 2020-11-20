@@ -1,6 +1,6 @@
-import 'package:Meals_App/models/dummy_data.dart';
+import '../dummy_data.dart';
 import 'package:flutter/material.dart';
-import 'category_item.dart';
+import '../widgets/category_item.dart';
 
 class CategoriesScreen extends StatelessWidget {
   @override
