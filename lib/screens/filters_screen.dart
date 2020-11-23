@@ -103,11 +103,11 @@ class _FiltersScreenState extends State<FiltersScreen> {
                 _buildSwitchListTile(
                   'Vegetarian',
                   'Only include Vegetarian meals.',
-                  _vegetaian,
+                  _vegetarian,
                   (newValue) {
                     setState(
                       () {
-                        _vegetaian = newValue;
+                        _vegetarian = newValue;
                       },
                     );
                   },
